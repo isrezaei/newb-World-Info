@@ -1,0 +1,67 @@
+
+p,h1,h2{
+    margin: 0;
+    padding: 0;
+}
+
+.SelectLang{
+    width: 20%;
+    height: 5rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeaderMap{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.CardInfo{
+    width: 25rem;
+    height: auto;
+    background: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.CardInfo h2 {
+    width: 90%;
+    height: auto;
+    border-bottom: 1px solid rgba(0,0,0,0.5);;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.ParentFlag{
+    width: 95%;
+    height: 15rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Falg{
+    width: 100%;
+    height: 100%;
+}
+
+.Summary{
+    margin: 3rem auto;
+    width: 50rem;
+    height: 25rem;
+    overflow-y: scroll;
+}
+
+.Loader{
+      position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}

@@ -10,7 +10,7 @@ export default function Mapper({NameCountry}){
             onClick={(E) => NameCountry(E.name)}
             src={Images}
             map={DataBase}
-            width={1000}
+            width={800}
             imgWidth={1000}/>
     )
 }

@@ -1,7 +1,4 @@
-import React from "react";
 import wiki from 'wikijs';
-let FetchError = require("fetch-error")
-
 
 export default async function Service (Country  , Code){
 
